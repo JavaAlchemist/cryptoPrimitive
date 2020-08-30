@@ -48,8 +48,8 @@ public class Application {
 	public static void main(String[] args) throws CryptoException, IOException {
 		System.out.println("Willkommen zum einfachsten Verschlüsseln der Welt.");
 		// Preparation Block && Basic Check
-		String inputDirName = "/Users/developdiwh/Downloads/cryptoInDir";
-		String outputDirName ="/Users/developdiwh/Downloads/cryptoOutDir";
+		String inputDirName = "/Users/devdiwh/Downloads/cryptoInDir";
+		String outputDirName ="/Users/devdiwh/Downloads/cryptoOutDir";
 		if ("/".equalsIgnoreCase(FILESEPARATOR)) {
 			inputDirName = HOMEDIR + "/Downloads/in";
 			outputDirName = HOMEDIR + "/Downloads/out";
