@@ -35,7 +35,7 @@ import at.diwh.utils.object.Nullchecker;
  * eingeben. Daraus folgt zwingend: Will man ver- und entschlüsseln in einem Rutsch, muss die Passphrase der Verschlüsselung
  * die gleiche sein wie die, mit der die .AES256-Dateien erzeugt wurde. Ebenfalls ergibt sich daraus, dass nur AES-Files 
  * zusammen entschlüsselt werden können, die unter sich ebenfalls die gleiche Passphrase haben.
- * @author 246J
+ * @author JavaAlchemist
  *
  */
 public class Application {
